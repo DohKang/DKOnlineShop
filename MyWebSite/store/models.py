@@ -1,5 +1,6 @@
 from django.db import models
 from category.models import Category
+
 # Create your models here.
 
 class Product(models.Model):
@@ -16,3 +17,4 @@ class Product(models.Model):
 
     def __str__(self):
         return self.product_name
+    
